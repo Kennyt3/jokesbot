@@ -1,0 +1,16 @@
+@media (max-width: 200px) {
+  .imgDiv img {
+    width: 200px;
+  }
+
+  #imgDiv1 {
+    width: 200px;
+  }
+
+  .textDiv h1 {
+    width: 200px;
+  }
+  .textDiv h3 {
+    width: 200px;
+  }
+}
