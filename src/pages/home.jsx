@@ -17,7 +17,7 @@ const Home = () => {
           // backgroundColor: 'black',
           marginLeft: 'auto',
           marginRight: 'auto',
-          paddingTop: '10px',
+          // paddingTop: '10px',
         }}
       >
         <Title />
@@ -25,7 +25,7 @@ const Home = () => {
       <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
         <div
           style={{
-            paddingTop: '10px',
+            // paddingTop: '10px',
             width: '100%',
             maxWidth: '1200px',
             marginLeft: 'auto',
@@ -35,7 +35,7 @@ const Home = () => {
           <div
             style={{
               display: 'flex',
-              paddingTop: '10px',
+              // paddingTop: '10px',
               // alignItems: 'center',
               justifyContent: 'center',
             }}
