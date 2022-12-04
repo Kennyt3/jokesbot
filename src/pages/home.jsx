@@ -4,11 +4,13 @@ import Title from '../Component/Title'
 const Home = () => {
   return (
     <div
-      style={{
-        backgroundColor: 'rgb(100, 194, 245)',
-        // height: '100vh',
-        // width: '100vw',
-      }}
+      style={
+        {
+          // backgroundColor: 'rgb(100, 194, 245)',
+          // height: '100vh',
+          // width: '100vw',
+        }
+      }
     >
       <div
         style={{
