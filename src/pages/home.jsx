@@ -22,7 +22,7 @@ const Home = () => {
       >
         <Title />
       </div>
-      <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
+      <div style={{ height: '100%' }}>
         <div
           style={{
             paddingTop: '10px',
