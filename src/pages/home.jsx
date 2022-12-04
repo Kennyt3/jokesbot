@@ -6,7 +6,7 @@ const Home = () => {
     <div
       style={{
         backgroundColor: 'rgb(100, 194, 245)',
-        height: '100vh',
+        // height: '100vh',
         // width: '100vw',
       }}
     >
@@ -22,7 +22,13 @@ const Home = () => {
       >
         <Title />
       </div>
-      <div style={{ height: '100%' }}>
+      <div
+        style={
+          {
+            // height: '100%'
+          }
+        }
+      >
         <div
           style={{
             paddingTop: '10px',
