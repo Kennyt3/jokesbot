@@ -1,12 +1,13 @@
 import Jokes from '../Component/Jokes'
 import Title from '../Component/Title'
+import Header from '../Component/Header'
 
 const Home = () => {
   return (
     <div
       style={{
         backgroundColor: 'rgb(100, 194, 245)',
-        height: '100vh',
+        minHeight: '100vh',
         // width: '100vw',
       }}
     >
@@ -40,6 +41,7 @@ const Home = () => {
             marginRight: 'auto',
           }}
         >
+          <Header />
           <div
             style={{
               display: 'flex',
