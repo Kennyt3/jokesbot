@@ -36,6 +36,8 @@ const Home = () => {
             paddingTop: '10px',
             width: '100%',
             maxWidth: '1200px',
+            paddingLeft: '10px',
+            paddingRight: '10px',
             marginLeft: 'auto',
             marginRight: 'auto',
           }}
