@@ -12,6 +12,7 @@ const Header = () => {
         style={{
           fontSize: '36px',
           color: 'rgb(12, 89, 242)',
+          textAlign: 'center',
           // color: 'white',
           // color: 'rgba(64, 64, 64, 1)'
         }}
