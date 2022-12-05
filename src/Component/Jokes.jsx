@@ -1,6 +1,6 @@
 import { robotImages } from '../assets'
 import { useState } from 'react'
-
+import Header from './Header'
 const Jokes = () => {
   const [joke, setJoke] = useState({})
   const [updis, setUpdis] = useState('')
@@ -47,6 +47,8 @@ const Jokes = () => {
         id='imgDiv1'
       />
 
+      <Header />
+
       <div
         style={{
           width: 'fit-content',
@@ -78,7 +80,7 @@ const Jokes = () => {
           style={{
             marginLeft: 'auto',
             marginRight: 'auto',
-            maxWidth: '400px',
+            // maxWidth: '400px',
             textAlign: 'center',
           }}
           id='textDiv1'
@@ -89,7 +91,7 @@ const Jokes = () => {
           style={{
             marginRight: 'auto',
             marginLeft: 'auto',
-            maxWidth: '400px',
+            // maxWidth: '400px',
             textAlign: 'center',
           }}
           id='textDiv2'

@@ -1,6 +1,6 @@
 import Jokes from '../Component/Jokes'
 import Title from '../Component/Title'
-import Header from '../Component/Header'
+// import Header from '../Component/Header'
 
 const Home = () => {
   return (
@@ -41,7 +41,7 @@ const Home = () => {
             marginRight: 'auto',
           }}
         >
-          <Header />
+          {/* <Header /> */}
           <div
             style={{
               display: 'flex',
